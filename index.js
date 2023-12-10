@@ -13,7 +13,7 @@ const loadDataFromLocalstorage = () => {
     document.body.classList.toggle("light-mode", themeColor === "light_mode");
     themeButton.innerText = document.body.classList.contains("light-mode") ? "dark_mode" : "light_mode";
 
-    const defaultText = `<div class="default-text"style="background-image: url('images/us.jpg'); background-size: cover; background-repeat: no-repeat;">
+    const defaultText = `<div class="default-text"style="background-image: url('images/us2.jpg'); background-size: cover; background-repeat: no-repeat;">
                             <h1>ChatGPT Clone by Deepak Agrawal</h1>
                             <h2>Start a conversation and explore the power of AI.<br> Your chat history will be displayed here.</h2>
                         </div>`
